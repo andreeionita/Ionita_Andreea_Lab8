@@ -4,14 +4,16 @@ using Ionita_Andreea_Lab8.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Ionita_Andreea_Lab8.Migrations
 {
     [DbContext(typeof(Ionita_Andreea_Lab8Context))]
-    partial class Ionita_Andreea_Lab8ContextModelSnapshot : ModelSnapshot
+    [Migration("20211124173952_PublishingDate")]
+    partial class PublishingDate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
