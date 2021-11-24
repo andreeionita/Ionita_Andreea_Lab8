@@ -15,5 +15,9 @@ namespace Ionita_Andreea_Lab8.Data
         }
 
         public DbSet<Ionita_Andreea_Lab8.Models.Book> Book { get; set; }
+
+        public DbSet<Ionita_Andreea_Lab8.Models.Publisher> Publisher { get; set; }
+
+        public DbSet<Ionita_Andreea_Lab8.Models.Category> Category { get; set; }
     }
 }
